@@ -43,7 +43,7 @@ class AmethystTemplate extends BaseTemplate {
 
 				<?php
 					$this->html( 'bodytext' );
-					$this->html( 'dataAfterContent' ); 
+					$this->html( 'dataAfterContent' );
 					$this->html( 'catlinks' );
 				?>
 			</article>
