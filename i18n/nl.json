@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mainframe98"
+			"Mainframe98",
+			"Goefie"
 		]
 	},
-	"amethyst-desc": "Een MediaWiki vormgeving variant van de PHP.net interface"
+	"amethyst-desc": "Een MediaWiki skin versie van de PHP.net interface"
 }
