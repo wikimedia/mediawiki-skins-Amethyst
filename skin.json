@@ -22,13 +22,11 @@
 	},
 	"ResourceModules": {
 		"skins.amethyst": {
-			"position": "bottom",
 			"scripts": [
 				"resources/main.js"
 			]
 		},
 		"skins.amethyst.styles": {
-			"position": "top",
 			"styles": {
 				"resources/screen-common.less": {
 					"media": "screen"
