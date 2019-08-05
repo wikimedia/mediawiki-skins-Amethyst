@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kly"
+			"Kly",
+			"Winston Sung"
 		]
 	},
-	"amethyst-desc": "PHP.net 網站介面的 MediaWiki 外觀版本。"
+	"amethyst-desc": "PHP.net 網站介面的 MediaWiki 佈景主題版本。"
 }
