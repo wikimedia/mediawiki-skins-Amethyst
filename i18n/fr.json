@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Thibaut120094"
 		]
 	},
-	"amethyst-desc": "Une version d’habillage MédiaWiki de l’interface PHP.net."
+	"amethyst-desc": "Une version d’habillage MediaWiki de l’interface PHP.net."
 }
