@@ -19,15 +19,7 @@ module.exports = function ( grunt ) {
 				'resources/**/*.less'
 			]
 		},
-		banana: conf.MessagesDirs,
-		watch: {
-			files: [
-				'<%= eslint.all %>',
-				'<%= stylelint.all %>',
-				'.{stylelintrc}'
-			],
-			tasks: 'test'
-		}
+		banana: conf.MessagesDirs
 	} );
 
 	grunt.registerTask( 'test', [ 'eslint', 'stylelint', 'banana' ] );
