@@ -8,8 +8,26 @@
 	"descriptionmsg": "amethyst-desc",
 	"license-name": "GPL-2.0+",
 	"type": "skin",
+	"requires": {
+		"MediaWiki": ">= 1.36.0"
+	},
 	"ValidSkinNames": {
-		"amethyst": "Amethyst"
+		"amethyst": {
+			"class": "SkinTemplate",
+			"args": [
+				{
+					"name": "Amethyst",
+					"template": "AmethystTemplate",
+					"responsive": true,
+					"styles": [
+						"skins.amethyst.styles"
+					],
+					"scripts": [
+						"skins.amethyst"
+					]
+				}
+			]
+		}
 	},
 	"MessagesDirs": {
 		"Amethyst": [
@@ -27,6 +45,15 @@
 			]
 		},
 		"skins.amethyst.styles": {
+			"class": "ResourceLoaderSkinModule",
+			"features": {
+				"elements": true,
+				"content": true,
+				"content-links": true,
+				"interface": true,
+				"legacy": true,
+				"logo": true
+			},
 			"styles": {
 				"resources/screen-common.less": {
 					"media": "screen"
@@ -35,7 +62,6 @@
 		}
 	},
 	"AutoloadClasses": {
-		"SkinAmethyst": "includes/SkinAmethyst.php",
 		"AmethystTemplate": "includes/AmethystTemplate.php"
 	},
 	"manifest_version": 1
