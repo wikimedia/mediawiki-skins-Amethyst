@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"Msz2001"
 		]
 	},
-	"amethyst-desc": "Wersja skórki MEdiaWiki interfejsu PHP.net."
+	"amethyst-desc": "Wersja skórki MediaWiki interfejsu PHP.net."
 }
