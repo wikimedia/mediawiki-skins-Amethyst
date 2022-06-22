@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"YaronSh"
+			"YaronSh",
+			"Amire80"
 		]
 	},
-	"amethyst-desc": "גרסת עיצוב למדיה־ויקי של מנשק PHP.net."
+	"amethyst-desc": "גרסת עיצוב למדיה־ויקי של ממשק PHP.net."
 }
