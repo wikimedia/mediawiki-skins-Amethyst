@@ -2,7 +2,6 @@
 
 class AmethystTemplate extends BaseTemplate {
 	public function execute() {
-		$this->html( 'headelement' );
 		?>
 		<header id="header">
 			<nav>
@@ -51,7 +50,9 @@ class AmethystTemplate extends BaseTemplate {
 		<footer id="footer">
 			<ul>
 			<?php
-				foreach ( $this->getFooterIcons( 'nocopyright' ) as $blockName => $footerIcons ) { ?>
+				$footericons = $this->get( 'footericons' );
+				unset( $footericons['copyright'] );
+				foreach ( $footericons as $blockName => $footerIcons ) { ?>
 				<li>
 			<?php
 					foreach ( $footerIcons as $icon ) {
