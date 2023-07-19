@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Infovarius"
+			"Infovarius",
+			"BerryAVGN"
 		]
 	},
-	"amethyst-desc": "Версия оболочки MediaWiki интерфейса PHP.net"
+	"amethyst-desc": "Версия темы MediaWiki интерфейса PHP.net"
 }
