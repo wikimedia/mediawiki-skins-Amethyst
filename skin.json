@@ -46,7 +46,7 @@
 			]
 		},
 		"skins.amethyst.styles": {
-			"class": "ResourceLoaderSkinModule",
+			"class": "MediaWiki\\ResourceLoader\\SkinModule",
 			"features": {
 				"elements": true,
 				"content": true,
