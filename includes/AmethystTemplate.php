@@ -52,16 +52,16 @@ class AmethystTemplate extends BaseTemplate {
 			<?php
 				$footericons = $this->get( 'footericons' );
 				unset( $footericons['copyright'] );
-				foreach ( $footericons as $blockName => $footerIcons ) { ?>
+			foreach ( $footericons as $blockName => $footerIcons ) { ?>
 				<li>
 			<?php
-					foreach ( $footerIcons as $icon ) {
-						echo $this->getSkin()->makeFooterIcon( $icon, 'withoutImage' );
-					}
+			foreach ( $footerIcons as $icon ) {
+				echo $this->getSkin()->makeFooterIcon( $icon, 'withoutImage' );
+			}
 			?>
 				</li>
 			<?php
-				} ?>
+			} ?>
 			</ul>
 		</footer>
 		<?php
