@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"IJzeren Jan",
 			"Polda18"
 		]
 	},
-	"amethyst-desc": "Verzija MediaViki temy od interfejsa PHP.net."
+	"amethyst-desc": "Versija vizualnoj temy MediaWiki interfejsa PHP.net."
 }
