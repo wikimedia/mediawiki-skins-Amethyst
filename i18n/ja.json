@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aefgh39622"
+			"Aefgh39622",
+			"Shirayuki"
 		]
 	},
-	"amethyst-desc": "PHP.netインターフェースのMediaWikiスキンバージョン。"
+	"amethyst-desc": "PHP.netインターフェイスのMediaWiki外装バージョン。"
 }
