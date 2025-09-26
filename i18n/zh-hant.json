@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Kly",
+			"LowensteinYang",
 			"Winston Sung"
 		]
 	},
-	"amethyst-desc": "PHP.net 網站介面的MediaWiki版外觀。"
+	"amethyst-desc": "PHP.net介面版的MediaWiki外觀。"
 }
