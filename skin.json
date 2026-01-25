@@ -16,7 +16,7 @@
 			"class": "SkinTemplate",
 			"args": [
 				{
-					"name": "Amethyst",
+					"name": "amethyst",
 					"template": "AmethystTemplate",
 					"responsive": true,
 					"bodyOnly": true,
