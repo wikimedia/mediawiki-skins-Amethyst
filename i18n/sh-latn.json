@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Aca"
 		]
 	},
-	"amethyst-desc": "Verzija teme MedijaWikija interfejsa PHP.net."
+	"amethyst-desc": "Verzija teme MediaWikija interfejsa PHP.net."
 }
